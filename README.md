@@ -42,7 +42,7 @@ Sample image of Database:
 The project includes a set of data profiling and visualization notebooks that explore the datasets:
 1. **Data Profiling**: Insights into the structure and quality of the data using Python tools like `pandas`, `seaborn`, and `matplotlib`.
    
-   👉🏻 **Data Profiling Report**: <a href="reports/data_profiling.html" target="_blank">Open Data Profiling Report</a>
+   👉🏻 **Data Profiling Report**: <a href="reports/profile_exosky.html" target="_blank">Open Data Profiling Report</a>
      
    ![image](https://github.com/user-attachments/assets/2012da01-8b53-4b20-9cc2-9682f8c6bef0)
 
