@@ -1,6 +1,7 @@
 # Exosky: Visualizing the Night Sky from Exoplanets
 
-![Exosky Banner](images/exosky_img.jpg)
+![image](https://github.com/user-attachments/assets/33016bfa-7d17-40e5-9f4f-f6b5c6166254)
+
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -41,7 +42,7 @@ Sample image of Database:
 The project includes a set of data profiling and visualization notebooks that explore the datasets:
 1. **Data Profiling**: Insights into the structure and quality of the data using Python tools like `pandas`, `seaborn`, and `matplotlib`.
    
-   👉🏻 Data Profiling HTML link: [Data Profile](data_profiling/profile_exosky.html)
+   👉🏻 **Data Profiling Report**: <a href="reports/data_profiling.html" target="_blank">Open Data Profiling Report</a>
      
    ![image](https://github.com/user-attachments/assets/2012da01-8b53-4b20-9cc2-9682f8c6bef0)
 
