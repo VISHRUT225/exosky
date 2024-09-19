@@ -1,14 +1,14 @@
 # Exosky: Visualizing the Night Sky from Exoplanets
 
-![Exosky Banner](images/night_sky_rendering.png)
+![Exosky Banner](images/exosky_img.jpg)
 
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Datasets](#datasets)
-- [MySQL Database Setup](#mysql-database-setup)
-- [Jupyter Notebooks](#jupyter-notebooks)
+- [MySQL Database](#mysql-database)
 - [Data Profiling & Visualization](#data-profiling--visualization)
+- [Jupyter Notebooks](#jupyter-notebooks)
 - [Future Work](#future-work)
 
 
@@ -25,31 +25,39 @@
 
 ## Datasets
 This project uses two primary datasets:
-1. **NASA Exoplanet Archive**: [Sample CSV](datasets/nasa_exoplanet_data.csv)
-2. **Gaia DR3 Catalog**: [Sample CSV](datasets/gaia_star_catalog.csv)
+1. **NASA Exoplanet Archive**: [Sample CSV](datasets/NASA_Exoplanet_sample.csv)
+2. **Gaia DR3 Catalog**: [Sample CSV](datasets/Gaia_DR3_Catalog_sample.csv)
 
-## MySQL Database Setup
+## MySQL Database 
 
 The datasets are loaded into a MySQL database to facilitate efficient querying and manipulation. The database helps manage the vast number of records from the star catalogs and exoplanet archive.
+Sample image of Database:
+![Database Image](images/Database_ss.jpg)
 
 ### Database Schema
-![Database Schema](images/database_schema.png)
+![Database Schema](images/Databse_ss_02.jpg)
 
-### Example Query Result
-A sample query extracting star data from the Gaia catalog:
-![MySQL Query](images/mysql_query_example.png)
+## Data Profiling & Visualization
+The project includes a set of data profiling and visualization notebooks that explore the datasets:
+1. **Data Profiling**: Insights into the structure and quality of the data using Python tools like `pandas`, `seaborn`, and `matplotlib`.
+   
+   👉🏻 Data Profiling HTML link: [Data Profile](data_profiling/profile_exosky.html)
+     
+   ![image](https://github.com/user-attachments/assets/2012da01-8b53-4b20-9cc2-9682f8c6bef0)
+
+3. **Data Visualization**: Plots and graphs representing different star properties, exoplanet characteristics, etc.
+   <img width="803" alt="image_2024-09-19_22-48-05" src="https://github.com/user-attachments/assets/af45a046-da57-489e-88f5-a46adb94a694">
+   <img width="746" alt="image_2024-09-19_22-48-10" src="https://github.com/user-attachments/assets/adf01e26-d4ff-43ff-a240-ebbd9e86362f">
+
 
 ## Jupyter Notebooks
 
 Explore the data profiling and visualization work in these Jupyter notebooks:
 
-- [Data Profiling Notebook](notebooks/data_profiling.ipynb): Profiling the datasets using `pandas` and generating insights.
-- [Data Visualization Notebook](notebooks/data_visualization.ipynb): Visualizing star data from the exoplanet archive and Gaia catalog using `matplotlib` and `seaborn`.
+- [Data Profiling Notebook](notebooks/nasa_app_innovation.ipynb): Profiling the datasets using `pandas` and generating insights.
+- [Data Visualization Notebook](notebooks/nasa_app_innovation.ipynb): Visualizing star data from the exoplanet archive and Gaia catalog using `matplotlib` and `seaborn`.
 
-## Data Profiling & Visualization
-The project includes a set of data profiling and visualization notebooks that explore the datasets:
-1. **Data Profiling**: Insights into the structure and quality of the data using Python tools like `pandas`, `seaborn`, and `matplotlib`.
-2. **Data Visualization**: Plots and graphs representing different star properties, exoplanet characteristics, etc.
+
 
 
 ## Future Work
